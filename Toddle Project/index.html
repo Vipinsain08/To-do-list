@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="CSS/style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="homebar">
+
+        <img src="Images/toodle.png">
+
+        <div class="dropdown">
+
+            <button class="dropbtn"><b>Home</b>
+            <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-content">
+                
+                <a href="index.html">Create New Board</a>
+                <a href="post.html">Your Post</a>
+                <a href="saved.html">My Activity</a>
+            </div>
+
+        </div>
+
+        <a href="#about" style="font-size: 20px;"><b>About</b></a>
+
+        <a href="#contact"style="font-size: 20px;"><b>Contact</b></a>
+
+        <button id="lab" type="button"><i class="fa-solid fa-plus" style="margin-right: 5px;"></i>Create new board</button>
+        
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <div style="margin: 2em 2em; color: black;"><h2><b>All boards</b></h2></div>
+
+    <ul id="item-list">
+        <li>
+            <a href="#" contenteditable>
+                <h2>Title</h2>
+                <hr/>
+                <p>Enter your content</p>
+                
+                <div class="item-actions">
+                    <button class="save-btn"><i class="far fa-save"></i> Save</button>
+                    <button class="like-btn"><i class="fa-solid fa-star" style="color: #ff0000;"></i></button>
+               
+                </div>
+           
+            </a>
+        
+        </li>
+    
+    </ul>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
