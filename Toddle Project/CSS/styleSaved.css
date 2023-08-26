@@ -1,0 +1,25 @@
+.saved {
+  display: block;
+  margin-left: 8em;
+  margin-top: 4em;
+  height: 577px; 
+  width: 275px;
+  border:solid 2px white;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#img3{
+  width: 16em;
+  height: 10em;
+  margin-top: 2em;
+
+}
+
+.text-content{
+  justify-content: center;
+  margin-top: 16em;
+
+}
